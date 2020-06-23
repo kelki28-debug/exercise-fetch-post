@@ -31,6 +31,7 @@ async function sendData() {
         let push = await response.json();
     
         alert('Added Success')
+        window.location.reload()
         
         
 
